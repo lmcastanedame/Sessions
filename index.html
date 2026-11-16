@@ -19,7 +19,7 @@
     <main>
         <section id="about">
             <h2>What is an exoplanet?</h2>
-            <p>An exoplanet is a pla net outside out Solar System</p>
+            <p>An exoplanet is a planet outside out Solar System</p>
         </section>
 
         <section id="catalogue">
@@ -40,7 +40,7 @@
                     <input type="number" id="max-radius" name="max_radius" 
                            min="0.1" step="0.1" placeholder="e.g 2">
                 </div>
-                <div class="form-actions"></div>
+                <div class="form-actions">
                     <button type="submit" disabled>Filter planets</button>
                     <button type="reset">Reset fields</button>
                 </div>
@@ -77,10 +77,12 @@
         </section>
         <section id="method">
             <h2>How do we find exoplanets</h2>
-            <h3>Transit</h3>
-            <p>A planet passing in front of its star causes a small dip in the light we observe.</p>
-            <h3>Radial velocity</h3>
-            <p>A planet's gravity makes its star wobble. Astronomers detect this motion through shifts in the star's spectrum.</p>
+            <dl>
+                <dt>Transit</dt>
+                <dd>A planet passing in front of its star causes a small dip in the light we observe.</dd>
+                <dt>Radial velocity</dt>
+                <dd>A planet's gravity makes its star wobble. Astronomers detect this motion through shifts in the star's spectrum.</dd>
+            </dl>
         </section>
         <footer>
             <p>
@@ -98,4 +100,3 @@
     </main>
 </body>
 </html>
-
